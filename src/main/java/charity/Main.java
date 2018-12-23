@@ -13,12 +13,14 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 //        int i = 0;
-        Response response = get("https://charitybox.ru/gotovye-korobochki/");
-        while (response.getStatusCode() == 404) {
-            System.out.println(response.getStatusCode());
-            Thread.sleep(20000);
-        }
-        sendEmail("Коробочки появились", "Срочно проверить коробочки");
+//        Response response = get("https://charitybox.ru/gotovye-korobochki/");
+//        while (response.getStatusCode() == 404) {
+//            System.out.println(response.getStatusCode());
+//            Thread.sleep(20000);
+//        }
+//        sendEmail("Коробочки появились", "Срочно проверить коробочки");
+
+        System.out.println("hi");
 
     }
 
